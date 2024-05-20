@@ -1,0 +1,53 @@
+
+@import './_variables.scss';
+@import 'normalize.css/normalize.css';
+@import '_placeholder';
+
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-family: $main-font;
+}   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    // background-color: $main-blue ;
+    min-width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 20vh 1fr;
+
+}
+h1 {
+    margin: 0;
+    font-family: $title-font;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+#particles canvas{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+main{
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    z-index: 3;
+}

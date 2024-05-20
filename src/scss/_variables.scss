@@ -1,0 +1,19 @@
+$main-blue : #ccfbf1;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Roboto+Slab:wght@100..900&display=swap');
+
+@font-face {
+    font-family: Monolisa;
+    src: url('../../public/fonts/MonoLisaRegular.ttf');
+}
+
+.jersey-25-charted-regular {
+    font-family: "Jersey 25 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+$title-font : 'Jersey 25 Charted';
+$main-font: 'Monolisa';
